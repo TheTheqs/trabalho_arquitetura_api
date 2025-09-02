@@ -1,0 +1,41 @@
+## Build e binários
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## Configurações locais do VS
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+logs/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Arquivos de dependências
+*.dll
+*.exe
+*.app
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+
+## Configurações sensíveis
+appsettings.Development.json
+appsettings.*.json
+
+## Banco
+*.db
+*.sqlite
