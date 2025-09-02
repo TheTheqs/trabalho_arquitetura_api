@@ -1,5 +1,6 @@
 ﻿namespace WebApplication1.Models
 {
+	// Entidade principal do trabalho, possui atributos mínimos relacionados aos atributos fornecidos pelo roteiro da atividade prática.
 	public class Livro
 	{
 		public int Id { get; set; }
