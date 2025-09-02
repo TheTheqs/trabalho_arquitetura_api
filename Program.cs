@@ -16,6 +16,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
 	options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+//Inlcusão das classe Data, nossos repositórios
+builder.Services.AddScoped<LivroData>();
+builder.Services.AddScoped<AlunoData>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
